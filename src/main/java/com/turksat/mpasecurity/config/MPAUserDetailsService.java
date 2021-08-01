@@ -34,14 +34,13 @@ class MPAUserDetailsService implements UserDetailsService {
             if (person == null) {
                 throw new UsernameNotFoundException("User not found");
             } else {
-                MPAUser user = new MPAUser(person.getUsername(), person.getPassword(),
+                MPAUser user = new MPAUser(person.getUsername(), person.getPassword(), //$2a$10$dw5U8Cgo5hSIirAws7LY7u95ZO.QhdAhKO1iAP6GrYGXIp/23UyWi 1
                         true,
                         true,
                         true,
                         true,
                         getAuthorities(person.getAuthorities()),
                         person.getId());
-                log.info(person.getUsername()+" " + person.getAuthorities().toString());
                 return user;
             }
         }
