@@ -1,0 +1,7 @@
+INSERT INTO musteri_portal.mpa_user (id, activated, email, first_name, last_name, password, user_name) VALUES (1, true, 'hibaykal@turksat.com.tr', 'ibrahim', 'baykal', '$2a$10$dw5U8Cgo5hSIirAws7LY7u95ZO.QhdAhKO1iAP6GrYGXIp/23UyWi', 'ibrahim');
+INSERT INTO musteri_portal.mpa_user (id, activated, email, first_name, last_name, password, user_name) VALUES (2, true, 'hozer@turksat.com.tr', 'hakan', 'özer', '$2a$10$dw5U8Cgo5hSIirAws7LY7u95ZO.QhdAhKO1iAP6GrYGXIp/23UyWi', 'hakan');
+INSERT INTO musteri_portal.mpa_user (id, activated, email, first_name, last_name, password, user_name) VALUES (8, true, 'ismaily@turksat.com.tr', 'ismail', 'yeşiloğlu', null, 'ismaily');
+INSERT INTO musteri_portal.mpa_user (id, activated, email, first_name, last_name, password, user_name) VALUES (9, true, 'hkgunal@turksat.com.tr', 'hamza kağan', 'günal', null, 'hkgunal');
+INSERT INTO musteri_portal.mpa_user (id, activated, email, first_name, last_name, password, user_name) VALUES (10, true, 'ahsenturk@turksat.com.tr', 'ahmet hakan', 'şentürk', null, 'ahsenturk');
+INSERT INTO musteri_portal.mpa_user (id, activated, email, first_name, last_name, password, user_name) VALUES (11, true, 'mince@turksat.com.tr', 'mehmet', 'ince', null, 'mince');
+INSERT INTO musteri_portal.mpa_user (id, activated, email, first_name, last_name, password, user_name) VALUES (12, true, 'otahmazoglu@turksat.com.tr', 'özge', 'tahmazoğlu', null, 'otahmazoglu');
