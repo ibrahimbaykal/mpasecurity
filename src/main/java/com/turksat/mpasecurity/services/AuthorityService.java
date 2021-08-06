@@ -17,4 +17,10 @@ public class AuthorityService implements IAuthorityService {
     public List<Authority> findAll() {
         return authorityRepository.findAll();
     }
+
+    @Override
+    public Authority save(Authority authority) {
+        Authority savedAuthority = authorityRepository.save(authority);
+        return savedAuthority;
+    }
 }

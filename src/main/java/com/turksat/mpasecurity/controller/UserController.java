@@ -26,8 +26,9 @@ public class UserController {
     }
     @PostMapping("/api/1.0/user")
     boolean saveUser(@RequestBody User user){
-        log.info("save user");
-        userService.saveUser(user);
-        return true;
+        User result = userService.saveUser(user); //Todo Düzeltilecek
+        if (result != null)
+            return true;
+        return false;
     }
 }

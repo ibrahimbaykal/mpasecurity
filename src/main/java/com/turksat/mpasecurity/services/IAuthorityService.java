@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface IAuthorityService {
     List<Authority> findAll();
+    Authority save(Authority authority);
 }
